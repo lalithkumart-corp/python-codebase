@@ -30,14 +30,14 @@ print('\n\n Items from index 2 to 4 = ', squareList[2:4])
 print('\n\nThe second last element of the list is :', squareList[-2])
 
 
-from src.tutString import StringConcepts
+from src.basics.tutString import StringConcepts
 rr = StringConcepts()
 rr.handle()
 
-from src.tuplesAndDict import TuplesDict
+from src.basics.tuplesAndDict import TuplesDict
 td = TuplesDict()
 td.handle()
 
-from src.iterations import Iterations
+from src.basics.iterations import Iterations
 it = Iterations()
 it.handle()
